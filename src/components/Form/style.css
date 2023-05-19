@@ -1,0 +1,33 @@
+.box-form{
+    width: 100%;
+    max-width: 500px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    padding: 20px;
+}
+.field{
+    width: 70%;
+    height: 35px;
+    background-color: #4d525f;
+    border: 0;
+    outline: none;
+    text-indent: 10px;
+    color: #fff;
+}
+.field::placeholder{
+    color: rgba(227, 227, 227, 0.7);
+}
+.btn-add{
+    background: var(--primary-color);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    height: 35px;
+}
+.btn-add svg{
+    width: 18px;
+    height: 18px;
+}

@@ -1,0 +1,48 @@
+.note{
+    width: 100%;
+    padding: 40px 20px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 8px;
+    position: relative;
+    overflow-y: scroll;
+    text-align: left;
+    margin-top: 20px;
+}
+.note__bar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    padding: 8px 16px;
+    opacity: 0;
+    transition: all 0.4s ease-in;
+}
+.note:hover .note__bar{
+    opacity: 1;
+}
+.note__icon{
+    color: #8f8f8f;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.note__icon:hover{
+    color: #fff;
+}
+.note__desc{
+    font-size: 16px;
+    color: #fff;;
+}
+.note::-webkit-scrollbar {
+    width: 10px;
+  }
+.note::-webkit-scrollbar-track {
+    background-color: #29292b;
+  }
+.note::-webkit-scrollbar-thumb {
+    background: #8d8d8d;
+}
